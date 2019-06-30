@@ -27,6 +27,7 @@ public class PlayerTest implements TestUtils {
         assertEquals(100, player.getMana());
         assertEquals(30, player.getAttack());
         assertEquals(10, player.getDefense());
+
         assertTrue(player.isAlive());
         assertNull(player.getWeapon());
         assertNull(player.getSpell());
@@ -79,28 +80,28 @@ public class PlayerTest implements TestUtils {
         assertEquals(player.getAttack() + weapon.getDamage(), player.normalAttack());
     }
 
-    @Test
-    public void testPlayerSpellAttackNoSpell() {
-        assertEquals(player.getAttack(), player.spellAttack());
-    }
-
-    @Test
-    public void testPlayerSpellAttackSpell() {
-        player.equipSpell(spell);
-
-        assertEquals(player.getAttack() + spell.getDamage(), player.spellAttack());
-    }
-
-    @Test
-    public void testPlayerSpellAttackSpellNoMana() {
-        player.equipSpell(spell);
-
-        // reduce mana
-        player.spellAttack();
-        player.spellAttack();
-        player.spellAttack();
-
-        assertEquals(player.getAttack(), player.spellAttack());
-    }
+//    @Test
+//    public void testPlayerSpellAttackNoSpell() {
+//        assertEquals(player.getAttack(), player.spellAttack());
+//    }
+//
+//    @Test
+//    public void testPlayerSpellAttackSpell() {
+//        player.equipSpell(spell);
+//
+//        assertEquals(player.getAttack() + spell.getDamage(), player.spellAttack());
+//    }
+//
+//    @Test
+//    public void testPlayerSpellAttackSpellNoMana() {
+//        player.equipSpell(spell);
+//
+//        // reduce mana
+//        player.spellAttack();
+//        player.spellAttack();
+//        player.spellAttack();
+//
+//        assertEquals(player.getAttack(), player.spellAttack());
+//    }
 
 }

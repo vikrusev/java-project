@@ -3,34 +3,37 @@
   <component name="ChangeListManager">
     <list default="true" id="48ff3b6b-e896-4c31-999c-7e6267c30961" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/messages/commands/Commands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/messages/commands/Commands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/messages/map/MapMessages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/messages/map/MapMessages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/messages/map/MapObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/messages/map/MapObjects.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/messages/player/BackpackMessages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/messages/player/BackpackMessages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/messages/player/PlayerMessages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/messages/player/PlayerMessages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/messages/server/GameEngineMessages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/messages/server/GameEngineMessages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/messages/server/ServerMessages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/messages/server/ServerMessages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/Actor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/participants/actor/Actor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/participants/actor/Position.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/Stats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/participants/actor/Stats.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/essentials/Treasure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/participants/actor/essentials/Treasure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/essentials/arsenal/Spell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/participants/actor/essentials/arsenal/Spell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/essentials/arsenal/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/participants/actor/essentials/arsenal/Weapon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/essentials/potions/HealthPotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/participants/actor/essentials/potions/HealthPotion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/essentials/potions/ManaPotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/participants/actor/essentials/potions/ManaPotion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/monster/Minion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/participants/actor/monster/Minion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/player/Backpack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/participants/actor/player/Backpack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/participants/actor/player/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/client/PlayerClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/participants/client/PlayerClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/client/PlayerRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/participants/client/PlayerRunnable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/server/GameEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/GameEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/server/GameServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/GameServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/server/services/engine/GameMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/services/engine/GameMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/server/services/server/ActionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/services/server/ActionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/server/services/server/GameServerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/services/server/GameServerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/dungeons/GameServerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/GameServerTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/dungeons/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/PlayerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/dungeons/TestUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/TestUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/META-INF/Dungeons Online.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/bg/sofia/uni/fmi/mjt/dungeons/GameServerTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/bg/sofia/uni/fmi/mjt/dungeons/PlayerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/bg/sofia/uni/fmi/mjt/dungeons/TestUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/bg/sofia/uni/fmi/mjt/dungeons/messages/commands/Commands.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/bg/sofia/uni/fmi/mjt/dungeons/messages/map/MapMessages.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/bg/sofia/uni/fmi/mjt/dungeons/messages/map/MapObjects.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/bg/sofia/uni/fmi/mjt/dungeons/messages/player/BackpackMessages.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/bg/sofia/uni/fmi/mjt/dungeons/messages/player/PlayerMessages.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/bg/sofia/uni/fmi/mjt/dungeons/messages/server/GameEngineMessages.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/bg/sofia/uni/fmi/mjt/dungeons/messages/server/ServerMessages.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/Actor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/Position.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/Stats.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/essentials/Treasure.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/essentials/arsenal/Spell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/essentials/arsenal/Weapon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/essentials/potions/HealthPotion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/essentials/potions/ManaPotion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/monster/Minion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/player/Backpack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/player/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/bg/sofia/uni/fmi/mjt/dungeons/participants/client/PlayerClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/bg/sofia/uni/fmi/mjt/dungeons/participants/client/PlayerRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/bg/sofia/uni/fmi/mjt/dungeons/server/GameEngine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/bg/sofia/uni/fmi/mjt/dungeons/server/GameServer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/bg/sofia/uni/fmi/mjt/dungeons/server/GameServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/bg/sofia/uni/fmi/mjt/dungeons/server/services/engine/GameMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/bg/sofia/uni/fmi/mjt/dungeons/server/services/server/ActionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/bg/sofia/uni/fmi/mjt/dungeons/server/services/server/GameServerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/PlayerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,11 +83,56 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/messages/map/MapObjects.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+            <state relative-caret-position="357">
+              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/GameServerTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/PlayerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="354">
+              <caret line="85" column="7" lean-forward="true" selection-start-line="85" selection-start-column="7" selection-end-line="85" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/participants/actor/player/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="281" column="24" lean-forward="true" selection-start-line="281" selection-start-column="24" selection-end-line="281" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/TestUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -148,8 +196,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/messages/Commands.java" />
-        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/messages/EnumBase.java" />
         <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/messages/player/Messages.java" />
         <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/messages/server/Messages.java" />
         <option value="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/dungeons/ChatServerTest.java" />
@@ -199,6 +245,8 @@
         <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/essentials/potions/ManaPotion.java" />
         <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/server/GameServer.java" />
         <option value="$PROJECT_DIR$/src/server/GameServer.java" />
+        <option value="$PROJECT_DIR$/src/participants/actor/player/Player.java" />
+        <option value="$PROJECT_DIR$/test/PlayerTest.java" />
       </list>
     </option>
   </component>
@@ -219,8 +267,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -379,7 +427,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561921157940" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561921879203" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -406,20 +454,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PlayerTest.testPlayerStats">
-    <configuration name="GameServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="server.GameServer" />
-      <module name="Dungeons Online" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="server.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.PlayerTest.testPlayerSpellAttackSpell">
     <configuration name="PlayerClient" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="participants.client.PlayerClient" />
       <module name="Dungeons Online" />
@@ -433,25 +468,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in Dungeons Online" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GameServerTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Dungeons Online" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="MAIN_CLASS_NAME" value="GameServerTests" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameServerTests.findMinionCorrectly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Dungeons Online" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GameServerTests" />
-      <option name="METHOD_NAME" value="findMinionCorrectly" />
+      <option name="MAIN_CLASS_NAME" value="PlayerTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerTest.testPlayerSpellAttackNoSpell" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Dungeons Online" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PlayerTest" />
+      <option name="METHOD_NAME" value="testPlayerSpellAttackNoSpell" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerTest.testPlayerSpellAttackSpell" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Dungeons Online" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PlayerTest" />
+      <option name="METHOD_NAME" value="testPlayerSpellAttackSpell" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -473,35 +520,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="bg.sofia.uni.fmi.mjt.dungeons in Dungeons Online" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Dungeons Online" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bg.sofia.uni.fmi.mjt.dungeons" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.GameServer" />
       <item itemvalue="Application.PlayerClient" />
-      <item itemvalue="JUnit.All in Dungeons Online" />
-      <item itemvalue="JUnit.GameServerTests.findMinionCorrectly" />
       <item itemvalue="JUnit.PlayerTest.testPlayerStats" />
-      <item itemvalue="JUnit.bg.sofia.uni.fmi.mjt.dungeons in Dungeons Online" />
+      <item itemvalue="JUnit.GameServerTests" />
+      <item itemvalue="JUnit.PlayerTest" />
+      <item itemvalue="JUnit.PlayerTest.testPlayerSpellAttackNoSpell" />
+      <item itemvalue="JUnit.PlayerTest.testPlayerSpellAttackSpell" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PlayerTest.testPlayerSpellAttackSpell" />
+        <item itemvalue="JUnit.PlayerTest" />
+        <item itemvalue="JUnit.PlayerTest.testPlayerSpellAttackNoSpell" />
+        <item itemvalue="JUnit.GameServerTests" />
         <item itemvalue="JUnit.PlayerTest.testPlayerStats" />
-        <item itemvalue="JUnit.bg.sofia.uni.fmi.mjt.dungeons in Dungeons Online" />
-        <item itemvalue="Application.GameServer" />
-        <item itemvalue="JUnit.All in Dungeons Online" />
-        <item itemvalue="JUnit.GameServerTests.findMinionCorrectly" />
       </list>
     </recent_temporary>
   </component>
@@ -519,42 +552,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GameServerTests_findMinionCorrectly - 2019.02.14 at 16h 50m 46s.xml">
-      <configuration name="GameServerTests.findMinionCorrectly" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="bg_sofia_uni_fmi_mjt_dungeons_in_Dungeons_Online - 2019.02.14 at 16h 50m 55s.xml">
-      <configuration name="bg.sofia.uni.fmi.mjt.dungeons in Dungeons Online" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="bg_sofia_uni_fmi_mjt_dungeons_in_Dungeons_Online - 2019.02.14 at 16h 51m 38s.xml">
-      <configuration name="bg.sofia.uni.fmi.mjt.dungeons in Dungeons Online" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GameServerTests_findMinionCorrectly - 2019.02.14 at 16h 52m 20s.xml">
-      <configuration name="GameServerTests.findMinionCorrectly" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GameServerTests_findMinionCorrectly - 2019.02.14 at 16h 52m 29s.xml">
-      <configuration name="GameServerTests.findMinionCorrectly" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Dungeons_Online - 2019.02.14 at 16h 52m 56s.xml">
-      <configuration name="All in Dungeons Online" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="bg_sofia_uni_fmi_mjt_dungeons_in_Dungeons_Online - 2019.02.14 at 19h 26m 16s.xml">
-      <configuration name="bg.sofia.uni.fmi.mjt.dungeons in Dungeons Online" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="bg_sofia_uni_fmi_mjt_dungeons_in_Dungeons_Online - 2019.02.14 at 19h 26m 47s.xml">
-      <configuration name="bg.sofia.uni.fmi.mjt.dungeons in Dungeons Online" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PlayerTest_testPlayerStats - 2019.06.13 at 19h 49m 38s.xml">
-      <configuration name="PlayerTest.testPlayerStats" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PlayerTest_testPlayerStats - 2019.06.13 at 19h 50m 23s.xml">
       <configuration name="PlayerTest.testPlayerStats" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlayerTest_testPlayerStats - 2019.06.30 at 22h 02m 36s.xml">
+      <configuration name="PlayerTest.testPlayerStats" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameServerTests - 2019.06.30 at 22h 02m 47s.xml">
+      <configuration name="GameServerTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlayerTest - 2019.06.30 at 22h 02m 57s.xml">
+      <configuration name="PlayerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlayerTest_testPlayerSpellAttackNoSpell - 2019.06.30 at 22h 03m 08s.xml">
+      <configuration name="PlayerTest.testPlayerSpellAttackNoSpell" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlayerTest_testPlayerSpellAttackSpell - 2019.06.30 at 22h 03m 57s.xml">
+      <configuration name="PlayerTest.testPlayerSpellAttackSpell" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlayerTest - 2019.06.30 at 22h 05m 07s.xml">
+      <configuration name="PlayerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlayerTest_testPlayerSpellAttackSpell - 2019.06.30 at 22h 07m 57s.xml">
+      <configuration name="PlayerTest.testPlayerSpellAttackSpell" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlayerTest_testPlayerSpellAttackSpell - 2019.06.30 at 22h 08m 37s.xml">
+      <configuration name="PlayerTest.testPlayerSpellAttackSpell" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlayerTest_testPlayerSpellAttackSpell - 2019.06.30 at 22h 08m 59s.xml">
+      <configuration name="PlayerTest.testPlayerSpellAttackSpell" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49945828" visible="true" weight="0.16257995" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49945828" visible="true" weight="0.16577825" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -563,7 +596,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5005417" side_tool="true" weight="0.12846482" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32827735" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.2881907" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.2881907" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.28277355" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -612,41 +645,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/dungeons/TreasureTest.java" />
-    <entry file="file://$PROJECT_DIR$/test/TestUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/GameServerTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/participants/actor/player/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="281" column="23" selection-start-line="281" selection-start-column="23" selection-end-line="281" selection-end-column="23" />
-          <folding>
-            <element signature="e#1549#1550#0" expanded="true" />
-            <element signature="e#1587#1588#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/default-map.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -679,18 +677,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Dungeons Online.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/PlayerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2483#2484#0" expanded="true" />
-            <element signature="e#2553#2554#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/messages/player/BackpackMessages.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -892,8 +878,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/messages/map/MapObjects.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        <state relative-caret-position="357">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/GameServerTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/TestUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/participants/actor/player/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="281" column="24" lean-forward="true" selection-start-line="281" selection-start-column="24" selection-end-line="281" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/PlayerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="85" column="7" lean-forward="true" selection-start-line="85" selection-start-column="7" selection-end-line="85" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
