@@ -1,0 +1,31 @@
+```
+
+    This is the default map for
+
+    DUNGEONS ONLINE v0.1
+
+    There are:
+    10x monsters
+    10x treasures
+    30x obstacles
+
+    You can update it anyhow you want but keep the documentation up-to-date, please
+
+    !! N.B. !!
+    1. ONLY the map's symbols must be below 'MAP BEGIN:' line
+    2. The line must be 'MAP BEGIN:'
+
+```
+
+MAP BEGIN:
+
+M T # # . . M M T T
+. # # . . # # # # #
+. . . . M . # . M T
+# . M . . . # . # #
+. M . . . # # . # T
+. . . T . . # . # T
+. # M # . . . T # M
+. # # # . . . . # .
+T . . . . T . . # .
+. . M # # # . . . .

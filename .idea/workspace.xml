@@ -1,0 +1,1029 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="48ff3b6b-e896-4c31-999c-7e6267c30961" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Dungeons_Online$bg_sofia_uni_fmi_mjt_dungeons_in_Dungeons_Online.ic" NAME="bg.sofia.uni.fmi.mjt.dungeons in Dungeons Online Coverage Results" MODIFIED="1550165194101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>bg.sofia.uni.fmi.mjt.dungeons.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Dungeons_Online$GameServer.ic" NAME="GameServer Coverage Results" MODIFIED="1550106439440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>bg.sofia.uni.fmi.mjt.dungeons.server.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Dungeons_Online$PlayerTest.ic" NAME="PlayerTest Coverage Results" MODIFIED="1550152987648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>bg.sofia.uni.fmi.mjt.dungeons.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Dungeons_Online$All_in_Dungeons_Online.ic" NAME="All in Dungeons Online Coverage Results" MODIFIED="1550155971049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="1" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="261" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Dungeons Online" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/server/services/engine/GameMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="254" column="68" selection-start-line="254" selection-start-column="68" selection-end-line="254" selection-end-column="68" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3318#3319#0" expanded="true" />
+                <element signature="e#3349#3350#0" expanded="true" />
+                <element signature="method#addPlayer#0;class#GameMap#0" />
+                <element signature="method#findTreasure#0;class#GameMap#0" />
+                <element signature="method#removeActorFromMap#0;class#GameMap#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/server/services/server/ActionHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="131" column="28" selection-start-line="131" selection-start-column="28" selection-end-line="131" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/client/PlayerClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="64" column="51" selection-start-line="64" selection-start-column="51" selection-end-line="64" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/client/PlayerRunnable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/server/GameEngine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="20" column="20" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/server/GameServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/monster/Minion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+              <folding>
+                <element signature="e#771#772#0" expanded="true" />
+                <element signature="e#815#816#0" expanded="true" />
+                <element signature="e#850#851#0" expanded="true" />
+                <element signature="e#888#889#0" expanded="true" />
+                <element signature="e#1367#1368#0" expanded="true" />
+                <element signature="e#1413#1414#0" expanded="true" />
+                <element signature="method#takeDamage#0;class#Minion#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/Actor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/Position.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/Stats.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1156">
+              <caret line="84" column="5" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
+              <folding>
+                <element signature="e#1686#1687#0" expanded="true" />
+                <element signature="e#1720#1721#0" expanded="true" />
+                <element signature="e#1942#1943#0" expanded="true" />
+                <element signature="e#1975#1976#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>share</find>
+      <find>getSIngle</find>
+      <find>s</find>
+      <find>gave you an item</find>
+      <find>HAS_GIVEN</find>
+      <find>shareitem</find>
+      <find>noti</find>
+      <find>has</find>
+      <find>notifyPlayer</find>
+      <find>shareItem</find>
+      <find>notid</find>
+      <find>set</find>
+      <find>setpo</find>
+      <find>new</find>
+      <find>getat</find>
+      <find>level</find>
+      <find>getInde</find>
+      <find>getin</find>
+      <find>getIndex</find>
+      <find>takemana</find>
+      <find>mana</find>
+      <find>reduce</find>
+      <find>get</find>
+      <find>getCurre</find>
+      <find>map</find>
+      <find>asstring</find>
+      <find>movePlayer</find>
+      <find>monster with a spell</find>
+      <find>SPELL_ATTACK_MINION</find>
+      <find>start(</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\Users\admin\IdeaProjects\Dungeons Online</dir>
+      <dir>C:\Users\Viktor Rusev\IdeaProjects\Dungeons Online\src\bg\sofia\uni\fmi\mjt\dungeons\messages</dir>
+      <dir>C:\Users\Viktor Rusev\IdeaProjects\Dungeons Online\src\bg\sofia\uni\fmi\mjt\dungeons</dir>
+      <dir>C:\Users\Viktor Rusev\IdeaProjects\Dungeons Online\src</dir>
+      <dir>C:\Users\Viktor Rusev\IdeaProjects\Dungeons Online</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/messages/commands.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/messages/Commands.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/messages/EnumBase.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/messages/player/Messages.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/messages/server/Messages.java" />
+        <option value="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/dungeons/ChatServerTest.java" />
+        <option value="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/dungeons/ChatClientTest.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/player/PlayerClient.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/messages/map/PossibleSymbols.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/messages/map/PossibleObjects.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/messages/map/Objects.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/messages/map/MapObjects.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/player/PlayerRunnable.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/player.fxml" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/PlayerClient.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/player/Player.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/monster/Monster.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/essentials/ManaPotion.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/player/backpack/Backpack.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/messages/essentials/EssentialsMessages.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/essentials/arsenal/names/WeaponNames.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/server/services/server/CommandHandler.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/server/services/server/ChatServerService.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/essentials/arsenal/Spell.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/essentials/arsenal/Weapon.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/essentials/potions/HealthPotion.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/messages/player/PlayerMessages.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/client/PlayerRunnable.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/messages/player/BackpackMessages.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/messages/commands/Commands.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/monster/Minion.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/essentials/Treasure.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/messages/server/GameEngineMessages.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/messages/map/MapMessages.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/messages/server/ServerMessages.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/server/services/server/ActionHandler.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/Position.java" />
+        <option value="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/dungeons/TreasureTest.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/server/GameEngine.java" />
+        <option value="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/dungeons/GameServerTests.java" />
+        <option value="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/dungeons/TestUtils.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/player/Player.java" />
+        <option value="$PROJECT_DIR$/resources/default-map.txt" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/server/services/engine/GameMap.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/Stats.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/server/GameServer.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/server/services/server/GameServerService.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/Actor.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/player/Backpack.java" />
+        <option value="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/dungeons/PlayerTest.java" />
+        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/essentials/potions/ManaPotion.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Dungeons Online" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dungeons Online" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dungeons Online" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dungeons Online" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dungeons Online" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dungeons Online" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dungeons Online" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dungeons Online" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dungeons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dungeons Online" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dungeons Online" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dungeons" type="462c0819:PsiDirectoryNode" />
+              <item name="messages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dungeons Online" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dungeons Online" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dungeons" type="462c0819:PsiDirectoryNode" />
+              <item name="messages" type="462c0819:PsiDirectoryNode" />
+              <item name="commands" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dungeons Online" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dungeons Online" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dungeons" type="462c0819:PsiDirectoryNode" />
+              <item name="messages" type="462c0819:PsiDirectoryNode" />
+              <item name="map" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dungeons Online" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dungeons Online" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dungeons" type="462c0819:PsiDirectoryNode" />
+              <item name="messages" type="462c0819:PsiDirectoryNode" />
+              <item name="player" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dungeons Online" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dungeons Online" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dungeons" type="462c0819:PsiDirectoryNode" />
+              <item name="messages" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dungeons Online" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dungeons Online" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dungeons" type="462c0819:PsiDirectoryNode" />
+              <item name="participants" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dungeons Online" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dungeons Online" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dungeons" type="462c0819:PsiDirectoryNode" />
+              <item name="participants" type="462c0819:PsiDirectoryNode" />
+              <item name="actor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dungeons Online" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dungeons Online" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dungeons" type="462c0819:PsiDirectoryNode" />
+              <item name="participants" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dungeons Online" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dungeons Online" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dungeons" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dungeons Online" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dungeons Online" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dungeons" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dungeons Online" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dungeons Online" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dungeons" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="engine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dungeons Online" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dungeons Online" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dungeons" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dungeons Online" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dungeons Online" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Dungeons Online" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Dungeons Online" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="dungeons" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561889996853" />
+    <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/lib/gson-2.8.5.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="bg.sofia.uni.fmi.mjt.dungeons.participants.actor.player" />
+      <recent name="bg.sofia.uni.fmi.mjt.dungeons.participants.actor.player.backpack" />
+      <recent name="bg.sofia.uni.fmi.mjt.dungeons.participants.actor.essentials.arsenal" />
+      <recent name="bg.sofia.uni.fmi.mjt.dungeons.participants.actor.essentials.potions" />
+      <recent name="bg.sofia.uni.fmi.mjt.dungeons.participants.actor" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.PlayerTest.testPlayerStats">
+    <configuration name="GameServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bg.sofia.uni.fmi.mjt.dungeons.server.GameServer" />
+      <module name="Dungeons Online" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bg.sofia.uni.fmi.mjt.dungeons.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerClient" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bg.sofia.uni.fmi.mjt.dungeons.participants.client.PlayerClient" />
+      <module name="Dungeons Online" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bg.sofia.uni.fmi.mjt.dungeons.participants.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in Dungeons Online" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Dungeons Online" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameServerTests.findMinionCorrectly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Dungeons Online" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bg.sofia.uni.fmi.mjt.dungeons.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bg.sofia.uni.fmi.mjt.dungeons" />
+      <option name="MAIN_CLASS_NAME" value="bg.sofia.uni.fmi.mjt.dungeons.GameServerTests" />
+      <option name="METHOD_NAME" value="findMinionCorrectly" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerTest.testPlayerStats" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Dungeons Online" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bg.sofia.uni.fmi.mjt.dungeons.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bg.sofia.uni.fmi.mjt.dungeons" />
+      <option name="MAIN_CLASS_NAME" value="bg.sofia.uni.fmi.mjt.dungeons.PlayerTest" />
+      <option name="METHOD_NAME" value="testPlayerStats" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bg.sofia.uni.fmi.mjt.dungeons in Dungeons Online" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Dungeons Online" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bg.sofia.uni.fmi.mjt.dungeons.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bg.sofia.uni.fmi.mjt.dungeons" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.PlayerClient" />
+      <item itemvalue="Application.GameServer" />
+      <item itemvalue="JUnit.All in Dungeons Online" />
+      <item itemvalue="JUnit.GameServerTests.findMinionCorrectly" />
+      <item itemvalue="JUnit.bg.sofia.uni.fmi.mjt.dungeons in Dungeons Online" />
+      <item itemvalue="JUnit.PlayerTest.testPlayerStats" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PlayerTest.testPlayerStats" />
+        <item itemvalue="JUnit.bg.sofia.uni.fmi.mjt.dungeons in Dungeons Online" />
+        <item itemvalue="Application.GameServer" />
+        <item itemvalue="JUnit.All in Dungeons Online" />
+        <item itemvalue="JUnit.GameServerTests.findMinionCorrectly" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="48ff3b6b-e896-4c31-999c-7e6267c30961" name="Default Changelist" comment="" />
+      <created>1549752428249</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549752428249</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="GameServerTests_findMinionCorrectly - 2019.02.14 at 16h 50m 46s.xml">
+      <configuration name="GameServerTests.findMinionCorrectly" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="bg_sofia_uni_fmi_mjt_dungeons_in_Dungeons_Online - 2019.02.14 at 16h 50m 55s.xml">
+      <configuration name="bg.sofia.uni.fmi.mjt.dungeons in Dungeons Online" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="bg_sofia_uni_fmi_mjt_dungeons_in_Dungeons_Online - 2019.02.14 at 16h 51m 38s.xml">
+      <configuration name="bg.sofia.uni.fmi.mjt.dungeons in Dungeons Online" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameServerTests_findMinionCorrectly - 2019.02.14 at 16h 52m 20s.xml">
+      <configuration name="GameServerTests.findMinionCorrectly" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameServerTests_findMinionCorrectly - 2019.02.14 at 16h 52m 29s.xml">
+      <configuration name="GameServerTests.findMinionCorrectly" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Dungeons_Online - 2019.02.14 at 16h 52m 56s.xml">
+      <configuration name="All in Dungeons Online" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="bg_sofia_uni_fmi_mjt_dungeons_in_Dungeons_Online - 2019.02.14 at 19h 26m 16s.xml">
+      <configuration name="bg.sofia.uni.fmi.mjt.dungeons in Dungeons Online" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="bg_sofia_uni_fmi_mjt_dungeons_in_Dungeons_Online - 2019.02.14 at 19h 26m 47s.xml">
+      <configuration name="bg.sofia.uni.fmi.mjt.dungeons in Dungeons Online" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlayerTest_testPlayerStats - 2019.06.13 at 19h 49m 38s.xml">
+      <configuration name="PlayerTest.testPlayerStats" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlayerTest_testPlayerStats - 2019.06.13 at 19h 50m 23s.xml">
+      <configuration name="PlayerTest.testPlayerStats" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49945828" visible="true" weight="0.15778251" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5005417" side_tool="true" weight="0.12846482" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32827735" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.2881907" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.28277355" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5010661" side_tool="true" weight="0.2611051" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.27558637" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven" order="9" weight="0.32995737" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/src/bg/sofia/uni/mjt/dungeons/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/chat/GameServer.java" />
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/chat/server/GameEngine.java" />
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/messages/Commands.java" />
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/messages/EnumBase.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/Enum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1182">
+          <caret line="143" column="25" selection-start-line="143" selection-start-column="25" selection-end-line="143" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/dungeons/ChatClientTest.java" />
+    <entry file="file://$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/dungeons/ChatServerTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/player.fxml" />
+    <entry file="file://$PROJECT_DIR$/READ ME - Copy.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="55" lean-forward="true" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/messages/essentials/EssentialsMessages.java" />
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/essentials/arsenal/names/WeaponNames.java" />
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/server/services/server/CommandHandler.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="457" selection-start-line="457" selection-end-line="457" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/dungeons/TreasureTest.java" />
+    <entry file="file://$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/dungeons/TestUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/dungeons/GameServerTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/player/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="281" column="23" selection-start-line="281" selection-start-column="23" selection-end-line="281" selection-end-column="23" />
+          <folding>
+            <element signature="e#1549#1550#0" expanded="true" />
+            <element signature="e#1587#1588#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/default-map.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/server/services/server/GameServerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/player/Backpack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1352#1353#0" expanded="true" />
+            <element signature="e#1385#1386#0" expanded="true" />
+            <element signature="e#1413#1414#0" expanded="true" />
+            <element signature="e#1453#1454#0" expanded="true" />
+            <element signature="e#2197#2198#0" expanded="true" />
+            <element signature="e#2254#2255#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dungeons Online.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/dungeons/PlayerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2483#2484#0" expanded="true" />
+            <element signature="e#2553#2554#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/messages/commands/Commands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/messages/map/MapMessages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="23" />
+          <folding>
+            <element signature="e#1643#1644#0" expanded="true" />
+            <element signature="e#1678#1679#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/messages/map/MapObjects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/messages/player/BackpackMessages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="80" selection-start-line="5" selection-start-column="80" selection-end-line="5" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/messages/player/PlayerMessages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/messages/server/GameEngineMessages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/messages/server/ServerMessages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="39" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/essentials/arsenal/Spell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/essentials/arsenal/Weapon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/essentials/potions/HealthPotion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/essentials/potions/ManaPotion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/essentials/Treasure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="92" column="50" selection-start-line="92" selection-start-column="50" selection-end-line="92" selection-end-column="50" />
+          <folding>
+            <element signature="e#1381#1382#0" expanded="true" />
+            <element signature="e#1417#1418#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/monster/Minion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+            <element signature="e#888#889#0" expanded="true" />
+            <element signature="e#1367#1368#0" expanded="true" />
+            <element signature="e#1413#1414#0" expanded="true" />
+            <element signature="method#takeDamage#0;class#Minion#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/Actor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/Position.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/Stats.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="84" column="5" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
+          <folding>
+            <element signature="e#1686#1687#0" expanded="true" />
+            <element signature="e#1720#1721#0" expanded="true" />
+            <element signature="e#1942#1943#0" expanded="true" />
+            <element signature="e#1975#1976#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/client/PlayerClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="64" column="51" selection-start-line="64" selection-start-column="51" selection-end-line="64" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/client/PlayerRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/server/services/engine/GameMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="254" column="68" selection-start-line="254" selection-start-column="68" selection-end-line="254" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3318#3319#0" expanded="true" />
+            <element signature="e#3349#3350#0" expanded="true" />
+            <element signature="method#addPlayer#0;class#GameMap#0" />
+            <element signature="method#findTreasure#0;class#GameMap#0" />
+            <element signature="method#removeActorFromMap#0;class#GameMap#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/server/services/server/ActionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="131" column="28" selection-start-line="131" selection-start-column="28" selection-end-line="131" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/server/GameEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/server/GameServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Dungeons Online</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
