@@ -22,7 +22,7 @@ import static bg.sofia.uni.fmi.mjt.dungeons.messages.server.ServerMessages.*;
 import static bg.sofia.uni.fmi.mjt.dungeons.messages.commands.Commands.*;
 
 public final class GameServer extends GameServerService {
-#####
+
     private GameEngine engine;
     private ActionHandler actionHandler;
 
