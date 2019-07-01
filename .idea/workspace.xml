@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="48ff3b6b-e896-4c31-999c-7e6267c30961" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/READ ME.txt" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/src/server/services/map/engine/GameMap.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1343">
-              <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
+              <caret line="100" selection-start-line="100" selection-end-line="100" />
               <folding>
                 <element signature="method#addPlayer#0;class#GameMap#0" />
                 <element signature="method#findTreasure#0;class#GameMap#0" />
@@ -53,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/src/server/services/server/ActionHandler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -62,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/src/server/GameEngine.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
-              <caret line="202" lean-forward="true" selection-start-line="202" selection-end-line="202" />
+              <caret line="202" selection-start-line="202" selection-end-line="202" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#5603#5604#0" expanded="true" />
@@ -83,8 +83,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+            <state relative-caret-position="1479">
+              <caret line="87" selection-start-line="87" selection-end-line="87" />
             </state>
           </provider>
         </entry>
@@ -148,8 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/player/backpack/Backpack.java" />
-        <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/messages/essentials/EssentialsMessages.java" />
         <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/participants/actor/essentials/arsenal/names/WeaponNames.java" />
         <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/server/services/server/CommandHandler.java" />
         <option value="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/dungeons/server/services/server/ChatServerService.java" />
@@ -199,6 +197,8 @@
         <option value="$PROJECT_DIR$/src/server/GameServer.java" />
         <option value="$PROJECT_DIR$/src/server/services/map/engine/GameMap.java" />
         <option value="$PROJECT_DIR$/src/server/GameEngine.java" />
+        <option value="$PROJECT_DIR$/READ ME.txt" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -289,7 +289,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561976245627" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561976447446" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -794,14 +794,14 @@
     <entry file="file://$PROJECT_DIR$/src/server/services/server/ActionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/server/services/map/engine/GameMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1343">
-          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
           <folding>
             <element signature="method#addPlayer#0;class#GameMap#0" />
             <element signature="method#findTreasure#0;class#GameMap#0" />
@@ -823,7 +823,7 @@
     <entry file="file://$PROJECT_DIR$/src/server/GameEngine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="202" lean-forward="true" selection-start-line="202" selection-end-line="202" />
+          <caret line="202" selection-start-line="202" selection-end-line="202" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#5603#5604#0" expanded="true" />
@@ -840,10 +840,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/READ ME.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        <state relative-caret-position="1479">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
         </state>
       </provider>
     </entry>
