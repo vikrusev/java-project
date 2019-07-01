@@ -3,10 +3,7 @@ package messages.server;
 public enum GameEngineMessages {
 
     // connected with the map
-    NO_SPACE("There is no free space on the map"),
-
-    // GameEngine specific messages
-    ;
+    NO_SPACE("There is no free space on the map");
 
     private String message;
 

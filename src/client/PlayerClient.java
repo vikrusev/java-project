@@ -1,4 +1,4 @@
-package participants.client;
+package client;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -13,6 +13,10 @@ public class PlayerClient {
     private PrintWriter writer = null;
     private boolean connected = false;
 
+    /**
+     * This method listens for client's input.
+     * A client MUST be first connected before executing any other commands.
+     */
     private void run() {
         try (Scanner scanner = new Scanner(System.in)) {
 
@@ -49,6 +53,12 @@ public class PlayerClient {
         }
     }
 
+    /**
+     * Establishes a connection with the server.
+     * @param remoteHost - the host
+     * @param remotePort - the port of the host
+     * @param username - the username of the client
+     */
     private void connect(String remoteHost, int remotePort, String username) {
         try {
             // if we are already connected - do not open a new socket
@@ -64,7 +74,6 @@ public class PlayerClient {
                 PlayerRunnable playerRunnable = new PlayerRunnable(socket);
                 new Thread(playerRunnable).start();
             }
-
             else {
                 writer.println(CONNECT + " " + username);
             }
@@ -73,6 +82,10 @@ public class PlayerClient {
         }
     }
 
+    /**
+     * Disconnects a client from the server.
+     * @param disconnect - the disconnect command to be send to the server
+     */
     private void disconnect(String disconnect) {
         writer.println(disconnect);
         this.writer.close();

@@ -3,10 +3,10 @@ package server;
 import messages.map.MapMessages;
 import messages.player.BackpackMessages;
 import participants.actor.Position;
-import participants.actor.essentials.Treasure;
+import participants.essentials.Treasure;
 import participants.actor.monster.Minion;
 import participants.actor.player.Player;
-import server.services.engine.GameMap;
+import server.services.map.engine.GameMap;
 
 import static messages.map.MapMessages.*;
 import static messages.player.BackpackMessages.ITEM_PICKED;
@@ -29,6 +29,10 @@ public class GameEngine {
         return this.gameMap.addPlayer(player);
     }
 
+    /**
+     * Removes a player from the map and frees his index.
+     * @param player - the player to be removed.
+     */
     void removePlayer(Player player) {
         int playerIndex = Character.getNumericValue(player.getIndex());
 
@@ -43,76 +47,14 @@ public class GameEngine {
         this.gameMap.addNewRandomMinion();
     }
 
-    MapMessages moveUp(Player player) {
-        return move(player, -1, 0);
-    }
-
-    MapMessages moveDown(Player player) {
-        return move(player, 1, 0);
-    }
-
-    MapMessages moveLeft(Player player) {
-        return move(player, 0, -1);
-    }
-
-    MapMessages moveRight(Player player) {
-        return move(player, 0, 1);
-    }
-
-    private synchronized MapMessages move(Player player, int x, int y) {
-        Position currentPlayerPosition = player.getPosition();
-        x += currentPlayerPosition.getX();
-        y += currentPlayerPosition.getY();
-
-        MapMessages message = checkMove(x, y);
-
-        if (message == MOVE_OK) {
-            return this.gameMap.movePlayer(player, x, y);
-        }
-
-        if (message == TREASURE) {
-            this.gameMap.movePlayer(player, x, y);
-            message = dealWithTreasure(player, x, y);
-        }
-
-        if (message == MONSTER) {
-            Minion minion = this.gameMap.findMinion(x, y);
-
-            RESPONSE_TEXT.setMessage(String.format(getEnumMessage(message), minion.getLevel()));
-
-            if (!minion.isFighting()) {
-                player.setFightMob(minion);
-                minion.setFightingMode(true);
-            }
-        }
-
-        else if (message == PLAYER) {
-            Player playerAgainst = this.gameMap.findPlayer(x, y);
-
-
-            if (playerAgainst != null && !playerAgainst.isFighting()) {
-                RESPONSE_TEXT.setMessage(String.format(getEnumMessage(message), player.getHealth()));
-                playerAgainst.setFightPlayer(player);
-                playerAgainst.setFightingMode(true);
-                player.setFightPlayer(playerAgainst);
-            }
-            else {
-                RESPONSE_TEXT.setMessage(getEnumMessage(PLAYER_ALREADY_FIGHTING));
-            }
-
-        }
-
-        else {
-            return message;
-        }
-
-        return RESPONSE_TEXT;
-    }
-
-    private MapMessages checkMove(int x, int y) {
-        return this.gameMap.checkPosition(x, y);
-    }
-
+    /**
+     * Creates a random treasure which the player has picked.
+     * Removes the treasure from the map and creates a new one somewhere on the map.
+     * @param player - the palyer who has picked the treasure.
+     * @param x - abscissa of the treasure
+     * @param y - ordinate of the treasure
+     * @return MapMessages - a message from the map
+     */
     private MapMessages dealWithTreasure(Player player, int x, int y) {
         BackpackMessages backpackMessage = Treasure.randomTreasure().collect(player);
         String response = getEnumMessage(backpackMessage);
@@ -125,6 +67,7 @@ public class GameEngine {
         RESPONSE_TEXT.setMessage(response);
         return RESPONSE_TEXT;
     }
+
 
     MapMessages normalAttack(Player player) {
         int dealDamage = player.normalAttack();
@@ -232,6 +175,77 @@ public class GameEngine {
 
         RESPONSE.setMessage(String.format(response, dealDamage, playerAgainst.getHealth()));
         return RESPONSE;
+    }
+
+    /* ---------- MOVEMENTS ---------- */
+    MapMessages moveUp(Player player) {
+        return move(player, -1, 0);
+    }
+
+    MapMessages moveDown(Player player) {
+        return move(player, 1, 0);
+    }
+
+    MapMessages moveLeft(Player player) {
+        return move(player, 0, -1);
+    }
+
+    MapMessages moveRight(Player player) {
+        return move(player, 0, 1);
+    }
+
+    private synchronized MapMessages move(Player player, int x, int y) {
+        Position currentPlayerPosition = player.getPosition();
+        x += currentPlayerPosition.getX();
+        y += currentPlayerPosition.getY();
+
+        MapMessages message = checkMove(x, y);
+
+        if (message == MOVE_OK) {
+            return this.gameMap.movePlayer(player, x, y);
+        }
+
+        if (message == TREASURE) {
+            this.gameMap.movePlayer(player, x, y);
+            message = dealWithTreasure(player, x, y);
+        }
+
+        if (message == MONSTER) {
+            Minion minion = this.gameMap.findMinion(x, y);
+
+            RESPONSE_TEXT.setMessage(String.format(getEnumMessage(message), minion.getLevel()));
+
+            if (!minion.isFighting()) {
+                player.setFightMob(minion);
+                minion.setFightingMode(true);
+            }
+        }
+
+        else if (message == PLAYER) {
+            Player playerAgainst = this.gameMap.findPlayer(x, y);
+
+
+            if (playerAgainst != null && !playerAgainst.isFighting()) {
+                RESPONSE_TEXT.setMessage(String.format(getEnumMessage(message), player.getHealth()));
+                playerAgainst.setFightPlayer(player);
+                playerAgainst.setFightingMode(true);
+                player.setFightPlayer(playerAgainst);
+            }
+            else {
+                RESPONSE_TEXT.setMessage(getEnumMessage(PLAYER_ALREADY_FIGHTING));
+            }
+
+        }
+
+        else {
+            return message;
+        }
+
+        return RESPONSE_TEXT;
+    }
+
+    private MapMessages checkMove(int x, int y) {
+        return this.gameMap.checkPosition(x, y);
     }
 
 }

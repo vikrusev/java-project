@@ -11,6 +11,9 @@ import java.nio.channels.ServerSocketChannel;
 import java.nio.channels.SocketChannel;
 import java.util.concurrent.ConcurrentHashMap;
 
+/**
+ * Contains the vital information for the running server
+ */
 public abstract class GameServerService implements AutoCloseable {
 
     protected ServerSocketChannel serverSocketChannel;

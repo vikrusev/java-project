@@ -1,11 +1,11 @@
-package participants.actor.essentials;
+package participants.essentials;
 
 import messages.player.BackpackMessages;
 import participants.actor.Position;
-import participants.actor.essentials.arsenal.Spell;
-import participants.actor.essentials.arsenal.Weapon;
-import participants.actor.essentials.potions.HealthPotion;
-import participants.actor.essentials.potions.ManaPotion;
+import participants.essentials.arsenal.Spell;
+import participants.essentials.arsenal.Weapon;
+import participants.essentials.potions.HealthPotion;
+import participants.essentials.potions.ManaPotion;
 import participants.actor.player.Player;
 
 public class Treasure {
@@ -34,6 +34,15 @@ public class Treasure {
         return this.position;
     }
 
+    /**
+     * Creates a random number from 0 to 100.
+     * The higher the random number for weapon/spell, the more damage it has.
+     *
+     * The name of the weapon/spell is randomly picked from the array of weapons/spells.
+     * Weapons/spells may have 'Epic'/'Brutal' prepended to their names if they are epic.
+     *
+     * @return Treasure - A weapon/spell healthPotion/manaPotion, based on constants.
+     */
     public synchronized static Treasure randomTreasure() {
 
         int randomNumber = (int) (Math.random() * 101);
@@ -70,7 +79,7 @@ public class Treasure {
             return new Weapon(name.toString(), power);
         }
 
-        // multiply by appropriate number, because spells have more damage than weapons - 3
+        // multiply by appropriate number, because spells have more damage than weapons - 3 times more
         int power = (randomNumber % (spellBound - weaponBound)) * 3;
 
         if (isEpic()) {
@@ -84,18 +93,23 @@ public class Treasure {
         return new Spell(name.toString(), power, power / 2);
     }
 
-    // if the lottery's number is a cool number the weapon / spell is epic
+    /**
+     * Creates a new random number.
+     * One in seven weapons/spells is 'epic'
+     *
+     * @return boolean - If the number is a lucky number (one in 7).
+     */
     private static boolean isEpic() {
         int random = (int) (Math.random() * 101);
         return random % 7 == 0;
     }
 
-    public BackpackMessages collect(Player player) {
-        return null;
-    }
-
     public String getName() {
         return this.name;
+    }
+
+    public BackpackMessages collect(Player player) {
+        return player.pickEssential(this);
     }
 
 }

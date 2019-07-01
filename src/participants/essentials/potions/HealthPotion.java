@@ -1,8 +1,6 @@
-package participants.actor.essentials.potions;
+package participants.essentials.potions;
 
-import messages.player.BackpackMessages;
-import participants.actor.essentials.Treasure;
-import participants.actor.player.Player;
+import participants.essentials.Treasure;
 import com.google.gson.annotations.SerializedName;
 
 public class HealthPotion extends Treasure {
@@ -17,11 +15,6 @@ public class HealthPotion extends Treasure {
 
     public int healingPoints() {
         return this.healingPoints;
-    }
-
-    @Override
-    public BackpackMessages collect(Player player) {
-        return player.pickEssential(this);
     }
 
 }

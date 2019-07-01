@@ -2,7 +2,7 @@ import messages.map.MapMessages;
 import participants.actor.monster.Minion;
 import participants.actor.player.Player;
 import server.GameEngine;
-import server.services.engine.GameMap;
+import server.services.map.engine.GameMap;
 import org.junit.Before;
 import org.junit.Test;
 

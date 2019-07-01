@@ -1,10 +1,10 @@
-package server.services.engine;
+package server.services.map.engine;
 
 import messages.map.MapMessages;
 import messages.map.MapObjects;
 import participants.actor.Actor;
 import participants.actor.Position;
-import participants.actor.essentials.Treasure;
+import participants.essentials.Treasure;
 import participants.actor.monster.Minion;
 import participants.actor.player.Player;
 import server.services.server.GameServerService;
@@ -97,10 +97,6 @@ public class GameMap {
 
     private boolean isSymbolValid(char symbol) {
         return symbol == ' ' || MapObjects.getAllSymbols().contains(symbol);
-    }
-
-    public ArrayList<ArrayList<Character>> getCurrentMap() {
-        return this.map;
     }
 
     public String getCurrentMapAsString() {

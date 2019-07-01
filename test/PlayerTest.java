@@ -1,5 +1,5 @@
-import participants.actor.essentials.arsenal.Spell;
-import participants.actor.essentials.arsenal.Weapon;
+import participants.essentials.arsenal.Spell;
+import participants.essentials.arsenal.Weapon;
 import participants.actor.player.Player;
 import org.junit.Before;
 import org.junit.Test;
@@ -80,28 +80,28 @@ public class PlayerTest implements TestUtils {
         assertEquals(player.getAttack() + weapon.getDamage(), player.normalAttack());
     }
 
-//    @Test
-//    public void testPlayerSpellAttackNoSpell() {
-//        assertEquals(player.getAttack(), player.spellAttack());
-//    }
-//
-//    @Test
-//    public void testPlayerSpellAttackSpell() {
-//        player.equipSpell(spell);
-//
-//        assertEquals(player.getAttack() + spell.getDamage(), player.spellAttack());
-//    }
-//
-//    @Test
-//    public void testPlayerSpellAttackSpellNoMana() {
-//        player.equipSpell(spell);
-//
-//        // reduce mana
-//        player.spellAttack();
-//        player.spellAttack();
-//        player.spellAttack();
-//
-//        assertEquals(player.getAttack(), player.spellAttack());
-//    }
+    @Test
+    public void testPlayerSpellAttackNoSpell() {
+        assertEquals(player.getAttack(), player.spellAttack());
+    }
+
+    @Test
+    public void testPlayerSpellAttackSpell() {
+        player.equipSpell(spell);
+
+        assertEquals(player.getAttack() + spell.getDamage(), player.spellAttack());
+    }
+
+    @Test
+    public void testPlayerSpellAttackSpellNoMana() {
+        player.equipSpell(spell);
+
+        // reduce mana
+        player.spellAttack();
+        player.spellAttack();
+        player.spellAttack();
+
+        assertEquals(player.getAttack(), player.spellAttack());
+    }
 
 }

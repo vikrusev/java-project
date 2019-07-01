@@ -1,15 +1,13 @@
 package participants.actor.player;
 
 import messages.player.BackpackMessages;
-import participants.actor.Actor;
-import participants.actor.Position;
-import participants.actor.Stats;
-import participants.actor.essentials.Treasure;
-import participants.actor.essentials.arsenal.Spell;
-import participants.actor.essentials.arsenal.Weapon;
+import participants.actor.ActorExtended;
+import participants.essentials.Treasure;
+import participants.essentials.arsenal.Spell;
+import participants.essentials.arsenal.Weapon;
 import participants.actor.monster.Minion;
 
-public final class Player implements Actor {
+public final class Player extends ActorExtended {
 
     private static boolean[] playerIndices = new boolean[] {
                                                 false, false, false,
@@ -21,43 +19,51 @@ public final class Player implements Actor {
         return playerIndices;
     }
 
-
     private String username;
     private char index;
 
-    private int experience;
     private int experienceToLevelUp = 100;
 
-    private Position position;
     private Backpack backpack = new Backpack();
 
     private Weapon weapon = null;
     private Spell spell = null;
 
-    private Stats stats;
-
-    private boolean isFighting = false;
     private Minion minionAgainst = null;
     private Player playerAgainst = null;
 
+    /**
+     * Creates a player with username and position (-1, -1)
+     * @param username - the player's username
+     */
     public Player(String username) {
         this(username, -1, -1);
     }
 
+    /**
+     * Creates a player with a username on specific place on the map.
+     * Also sets the initial stats for a player.
+     *
+     * @param username - the player's username
+     * @param x - abcissa on the map
+     * @param y - ordinate on the map
+     */
     private Player(String username, int x, int y) {
+        super(1, 1, 0, x, y);
+
         this.username = username;
         this.index = findFreeIndex();
-
-        this.stats = new Stats(1, 1);
-        this.experience = 0;
-
-        this.setPosition(x, y);
     }
 
+    /**
+     * Gets a free 'id' for the new player.
+     * There will always be a free index as the GameServer will be handling maximum of 9 players.
+     * @return char - we represent the player's position on the map as a number of type 'char'
+     */
     private char findFreeIndex() {
         char index = '#';
 
-        // there will always be a free index on player creation
+        // find the first free index
         for (int i = 0; i < playerIndices.length; ++i) {
             if (!playerIndices[i]) {
                 playerIndices[i] = true;
@@ -78,7 +84,7 @@ public final class Player implements Actor {
     }
 
     public int getAttack() {
-        return this.stats.getAttack();
+        return super.stats.getAttack();
     }
 
     public Weapon getWeapon() {
@@ -94,26 +100,47 @@ public final class Player implements Actor {
         return this.backpack;
     }
 
+    /**
+     * If the player is alive - heal him.
+     * @param healingPoints - the amount of health to be healed.
+     */
     public void takeHealing(int healingPoints) {
         if (isAlive()) {
-            this.stats.heal(healingPoints);
+            super.stats.heal(healingPoints);
         }
     }
 
+    /**
+     * If the player is alive - replenish him.
+     * @param manaPoints - the amount of mana to be replenished.
+     */
     public void takeMana(int manaPoints) {
         if (isAlive()) {
-            this.stats.replenish(manaPoints);
+            super.stats.replenish(manaPoints);
         }
     }
 
+    /**
+     * Adds experience points to the player's experience.
+     * If they exceed the limit of the current level - the player levels up.
+     * @param experiencePoints - the experience points to be added.
+     */
     public void takeExperience(int experiencePoints) {
-        this.experience += experiencePoints;
+        super.experience += experiencePoints;
 
-        if (this.experience >= experienceToLevelUp) {
+        if (super.experience >= experienceToLevelUp) {
             levelUp();
         }
     }
 
+    /**
+     * If the player currently has no weapon - equip a copy of the passed weapon.
+     *
+     * If the player currently has weapon - leave the currently equipped weapon in the backpack
+     * and equip the new one.
+     *
+     * @param weapon - the weapon to be equipped.
+     */
     public void equipWeapon(Weapon weapon) {
         if (weapon == null) {
             return;
@@ -128,6 +155,14 @@ public final class Player implements Actor {
         this.weapon = weapon;
     }
 
+    /**
+     * If the player currently has no spell - equip a copy of the passed spell.
+     *
+     * If the player currently has spell - leave the currently equipped spell in the backpack
+     * and equip the new one.
+     *
+     * @param spell - the spell to be equipped.
+     */
     public void equipSpell(Spell spell) {
         if (spell == null) {
             return;
@@ -142,19 +177,46 @@ public final class Player implements Actor {
         this.spell = spell;
     }
 
+    /**
+     * Raises the default stats of the player (a.k.a. the maximum).
+     * Refills all stats (health, mana).
+     * Increments the needed experience points for the next level by 50.
+     */
     private void levelUp() {
-        this.stats.raise();
-        this.refillStats();
+        super.stats.raise();
+        super.refillStats();
 
-        this.experience = this.experience % experienceToLevelUp;
+        super.experience = super.experience % experienceToLevelUp;
         this.experienceToLevelUp += 50;
     }
 
+    /**
+     * Adds a new essential to the backpack.
+     * @param essential - the essential to be added.
+     * @return BackpackMessages - a message from the backpack.
+     */
     public BackpackMessages pickEssential(Treasure essential) {
         return this.backpack.add(essential);
     }
 
-    /* ----- FIGHTING SCENES ----- */
+    /**
+     * Drops a random item upon death on the position where the player has died.
+     * @return Treasure - the treasure that is dropped on the map.
+     */
+    public Treasure dropRandomItem() {
+        int backpackSize = this.backpack.getSize();
+
+        if (backpackSize > 0) {
+            int randomIndex = (int) (Math.random() * (backpackSize - 1));
+            Treasure droppedItem = this.backpack.getSingleItem(randomIndex);
+            this.backpack.remove(randomIndex);
+            return droppedItem;
+        }
+
+        return null;
+    }
+
+    /* ---------- FIGHTING SCENES ---------- */
     public void setFightMob(Minion minion) {
         this.minionAgainst = minion;
     }
@@ -171,14 +233,6 @@ public final class Player implements Actor {
         return this.playerAgainst != null;
     }
 
-    public synchronized void setFightingMode(boolean isFighting) {
-        this.isFighting = isFighting;
-    }
-
-    public boolean isFighting() {
-        return this.isFighting;
-    }
-
     public Minion getMinionAgainst() {
         return this.minionAgainst;
     }
@@ -190,108 +244,36 @@ public final class Player implements Actor {
     public void endFight() {
         this.minionAgainst = null;
         this.playerAgainst = null;
-        this.isFighting = false;
+
+        super.setFightingMode(false);
     }
 
-    public Treasure dropRandomItem() {
-        int backpackSize = this.backpack.getSize();
+    public int spellAttack() {
+        int damage =  super.stats.getAttack();
 
-        if (backpackSize > 0) {
-            int randomIndex = (int) (Math.random() * (backpackSize - 1));
-            Treasure droppedItem = this.backpack.getSingleItem(randomIndex);
-            this.backpack.remove(randomIndex);
-            return droppedItem;
+        if (this.spell == null) {
+            return damage;
         }
 
-        return null;
-    }
+        if (super.stats.getMana() >= this.spell.getManaCost()) {
+            super.stats.reduceMana(this.spell.getManaCost());
 
-    /* ----- OVERRIDING FROM ACTOR INTERFACE ----- */
-    @Override
-    public Position getPosition() {
-        return this.position;
-    }
-
-    @Override
-    public int getLevel() {
-        return this.stats.getLevel();
-    }
-
-    @Override
-    public int getHealth() {
-        return this.stats.getHealth();
-    }
-
-    @Override
-    public int getMana() {
-        return this.stats.getMana();
-    }
-
-    @Override
-    public int getExperience() {
-        return this.experience;
-    }
-
-    @Override
-    public int getDefense() {
-        return this.stats.getDefense();
-    }
-
-    @Override
-    public boolean isAlive() {
-        return this.stats.isAlive();
-    }
-
-    @Override
-    public void setPosition(int x, int y) {
-        this.position = new Position(x, y);
-    }
-
-    @Override
-    public void refillStats() {
-        this.stats.refill();
-    }
-
-    @Override
-    public void takeDamage(int damagePoints) {
-        this.stats.reduceHealth(damagePoints);
-
-        if (this.stats.getHealth() <= 0) {
-            die();
+            return damage + this.spell.getDamage();
         }
+
+        return damage;
     }
 
-    @Override
-    public void die() {
-        this.stats.death();
-    }
-
+    /* ----- OVERRIDING FROM ACTOR EXTENDED CLASS ----- */
     @Override
     public int normalAttack() {
-        int damage = this.stats.getAttack();
+        int damage = super.stats.getAttack();
 
         if (this.weapon == null) {
             return damage;
         }
 
         return damage + this.weapon.getDamage();
-    }
-
-    public int spellAttack() {
-
-        int damage = -1;
-
-        if (this.spell == null) {
-            return damage;
-        }
-
-        if (this.stats.getMana() >= this.spell.getManaCost()) {
-            this.stats.reduceMana(this.spell.getManaCost());
-
-            return damage + this.spell.getDamage();
-        }
-
-        return damage;
     }
 
     /* ----- OVERRIDING HASH FUNCTIONS ----- */

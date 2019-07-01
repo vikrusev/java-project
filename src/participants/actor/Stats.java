@@ -34,6 +34,9 @@ public class Stats {
         this.mana = Math.min(this.maxMana, this.mana + manaPoints);
     }
 
+    /**
+     * Increases the max stats.
+     */
     public void raise() {
         this.level += 1 * this.statMultiplier;
         this.maxHealth += 10 * this.statMultiplier;

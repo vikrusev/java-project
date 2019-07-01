@@ -28,6 +28,12 @@ public final class GameServer extends GameServerService {
 
     private final int maxUsers = 9;
 
+    /**
+     * Initializes the server with MapEngine and ActionHandler on specified port.
+     * @param port - the port to be started on.
+     * @param mapFileName - the map we want to load for the game.
+     * @throws IOException - an exception may be thrown.
+     */
     public GameServer(int port, String mapFileName) throws IOException {
         super(port);
 
@@ -38,6 +44,11 @@ public final class GameServer extends GameServerService {
         System.out.printf(getEnumMessage(SERVER_STARTED), hostAddress);
     }
 
+    /**
+     * This method is the actual life of the server.
+     * It listens for incoming data in the channels.
+     * @throws IOException -
+     */
     private void start() throws IOException {
         while (runServer) {
             int readyChannels = selector.select();
@@ -63,6 +74,11 @@ public final class GameServer extends GameServerService {
         }
     }
 
+    /**
+     * A new connection has been initiated.
+     * @param key - the selection key.
+     * @throws IOException -
+     */
     private void accept(SelectionKey key) throws IOException {
         ServerSocketChannel ssChannel = (ServerSocketChannel) key.channel();
         SocketChannel sc = ssChannel.accept();
@@ -72,6 +88,10 @@ public final class GameServer extends GameServerService {
         System.out.println(CLIENT_CONNECTED);
     }
 
+    /**
+     * A client has sent a command.
+     * @param key - the selection key.
+     */
     private void read(SelectionKey key) {
 
         SocketChannel sc = (SocketChannel) key.channel();
@@ -117,6 +137,12 @@ public final class GameServer extends GameServerService {
         }
     }
 
+    /**
+     * Executes the command passed by the client.
+     * @param receivedMessage - the command from the client
+     * @param sc - the socket channel of the client
+     * @return ServerMessages - the response of the command
+     */
     private ServerMessages executeCommand(String receivedMessage, SocketChannel sc) {
         receivedMessage = receivedMessage.trim().replaceAll(" +", " ");
 
@@ -141,10 +167,12 @@ public final class GameServer extends GameServerService {
         }
 
         if (player.isFightingMob() || player.isFightingPlayer()) {
+            // the player cannot move while fighting
             if (player.isFighting()) {
                 if (enumCommand == UP || enumCommand == DOWN || enumCommand == LEFT || enumCommand == RIGHT) {
                     return CANNOT_FLEE;
                 }
+
                 switch (enumCommand) {
                     case NORMAL_ATTACK: message = this.engine.normalAttack(player); break;
                     case SPELL_ATTACK:  message = this.engine.spellAttack(player); break;
@@ -154,7 +182,6 @@ public final class GameServer extends GameServerService {
                     default: return UNKNOWN_COMMAND_FIGHT;
                 }
             }
-
             else {
                 startFight(player, enumCommand);
             }
@@ -189,6 +216,12 @@ public final class GameServer extends GameServerService {
         return RESPONSE_TEXT;
     }
 
+    /**
+     * Creates a new player on the map.
+     * @param commandParts - an array of the whole passed by the client command
+     * @param sc - the socket channel of the client
+     * @return ServerMessages - the response of the command
+     */
     private ServerMessages handleConnect(String[] commandParts, SocketChannel sc) {
         if (commandParts.length < 2) {
             return MISSING_USERNAME;
@@ -231,6 +264,12 @@ public final class GameServer extends GameServerService {
         }
     }
 
+    /**
+     * Creates a new socket channel for the new client with a given username if the username is not already taken.
+     * @param username - the username of the client
+     * @param sc - the socket channel of the client
+     * @return ServerMessages - the response
+     */
     private ServerMessages newClient(String username, SocketChannel sc) {
 
         Player newPlayer = new Player(username);
@@ -256,6 +295,11 @@ public final class GameServer extends GameServerService {
         return RESPONSE_TEXT;
     }
 
+    /**
+     * Closes the socket of the client and frees the memory of him.
+     * @param sc - the socket channel to be closed.
+     * @return ServerMessages - the response
+     */
     private ServerMessages disconnectClient(SocketChannel sc) {
 
         try {
@@ -273,6 +317,10 @@ public final class GameServer extends GameServerService {
 
     }
 
+    /**
+     * Updates all connected clients' map.
+     * @param kill - wheather this method is called with the special purpose to close the server and kill the clients.
+     */
     private void updateAll(boolean kill) {
 
         String currentMap = this.engine.getMap().getCurrentMapAsString();
@@ -289,6 +337,11 @@ public final class GameServer extends GameServerService {
 
     }
 
+    /**
+     * Updates the map of a single client.
+     * @param currentMap - the map.
+     * @param socketTo - the socket of the client to be updated.
+     */
     private void update(String currentMap, SocketChannel socketTo) {
         try {
             commandBuffer.clear();
@@ -304,7 +357,9 @@ public final class GameServer extends GameServerService {
         }
     }
 
-    // if the server shutdowns - send a proper message to all currently connected users and disconnect them
+    /**
+     * If the server shutdowns - send a proper message to all currently connected users and disconnect them
+     */
     private void killClients() {
         updateAll(true);
 
@@ -312,34 +367,6 @@ public final class GameServer extends GameServerService {
         for (SocketChannel sc : tempSet) {
             disconnectClient(sc);
         }
-    }
-
-    private void stop() {
-        try {
-            this.runServer = false;
-
-            this.killClients();
-
-            final int second = 1000;
-            Thread.sleep(second);
-
-            System.out.printf(getEnumMessage(SOCKETS_REMAINING), users.size());
-        } catch (Exception e) {
-            e.getStackTrace();
-        }
-    }
-
-    @Override
-    public void close() throws Exception {
-        this.stop();
-
-        this.selector.close();
-        commandBuffer.clear();
-        this.serverSocketChannel.close();
-    }
-
-    public static String getEnumMessage(Enum message) {
-        return message.toString();
     }
 
     public static void notifyPlayer(Player playerTo, String message) {
@@ -369,6 +396,39 @@ public final class GameServer extends GameServerService {
         } catch (IOException e) {
             throw new RuntimeException(e.getMessage());
         }
+    }
+
+    /**
+     * Just convert an enum message to string.
+     * @param message - the enum to eb converted
+     * @return String - the string value of the enum
+     */
+    public static String getEnumMessage(Enum message) {
+        return message.toString();
+    }
+
+    private void stop() {
+        try {
+            this.runServer = false;
+
+            this.killClients();
+
+            final int second = 1000;
+            Thread.sleep(second);
+
+            System.out.printf(getEnumMessage(SOCKETS_REMAINING), users.size());
+        } catch (Exception e) {
+            e.getStackTrace();
+        }
+    }
+
+    @Override
+    public void close() throws Exception {
+        this.stop();
+
+        this.selector.close();
+        commandBuffer.clear();
+        this.serverSocketChannel.close();
     }
 
     public static void main(String[] args) {

@@ -1,8 +1,6 @@
-package participants.actor.essentials.arsenal;
+package participants.essentials.arsenal;
 
-import messages.player.BackpackMessages;
-import participants.actor.essentials.Treasure;
-import participants.actor.player.Player;
+import participants.essentials.Treasure;
 import com.google.gson.annotations.SerializedName;
 
 public class Spell extends Treasure {
@@ -23,11 +21,6 @@ public class Spell extends Treasure {
 
     public int getDamage() {
         return this.damage;
-    }
-
-    @Override
-    public BackpackMessages collect(Player player) {
-        return player.pickEssential(this);
     }
 
 }

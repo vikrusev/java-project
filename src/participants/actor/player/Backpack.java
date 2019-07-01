@@ -1,7 +1,7 @@
 package participants.actor.player;
 
 import messages.player.BackpackMessages;
-import participants.actor.essentials.Treasure;
+import participants.essentials.Treasure;
 import com.google.gson.Gson;
 
 import java.util.ArrayList;
@@ -21,6 +21,12 @@ public class Backpack {
         this.capacity = capacity;
     }
 
+    /**
+     * Adds a treasure to the backpack if there is space.
+     *
+     * @param treasure - the treasure to be added to teh backpack.
+     * @return BackpackMessages - a mesage from the backpack.
+     */
     BackpackMessages add(Treasure treasure) {
         // the backpack is full
         if (isFull()) {
@@ -33,6 +39,11 @@ public class Backpack {
         return ITEM_PICKED;
     }
 
+    /**
+     * Removes a treasure from the backpack.
+     * @param index - the treasure to be removed.
+     * @return BackpackMessages - a message from the backpack.
+     */
     public BackpackMessages remove(int index) {
         try {
             // if item with this VALID index exists
@@ -48,14 +59,10 @@ public class Backpack {
         }
     }
 
-    public ArrayList<Treasure> getItems() {
-        return this.items;
-    }
-
-    public int getSize() {
-        return this.items.size();
-    }
-
+    /**
+     * @param index - the index of the treasure to be taken.
+     * @return Treasure - the desired treasure, if exists.
+     */
     public Treasure getSingleItem(int index) {
         try {
             return this.items.get(index);
@@ -64,6 +71,11 @@ public class Backpack {
         }
     }
 
+    /**
+     * Creates a list of all items in the backpack.
+     * This method is using GSON to handle JSON.
+     * @return String - the complete list of all items in the backpack.
+     */
     public String getItemsAsString() {
 
         Gson gson = new Gson();
@@ -82,6 +94,10 @@ public class Backpack {
         }
 
         return itemsAsString.toString();
+    }
+
+    public int getSize() {
+        return this.items.size();
     }
 
     public boolean isFull() {
