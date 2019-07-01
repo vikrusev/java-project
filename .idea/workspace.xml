@@ -2,50 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48ff3b6b-e896-4c31-999c-7e6267c30961" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/participants/actor/ActorExtended.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/READ ME.txt" beforeDir="false" afterPath="$PROJECT_DIR$/READ ME.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/GameServerTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dungeons Online/GameServerTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/PlayerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dungeons Online/PlayerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/messages/server/GameEngineMessages.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dungeons Online/messages/server/GameEngineMessages.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/participants/actor/Actor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dungeons Online/participants/actor/Actor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/participants/actor/Stats.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dungeons Online/participants/actor/Stats.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/participants/actor/essentials/Treasure.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/participants/actor/essentials/arsenal/Spell.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/participants/actor/essentials/arsenal/Weapon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/participants/actor/essentials/potions/HealthPotion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/participants/actor/essentials/potions/ManaPotion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/participants/actor/monster/Minion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dungeons Online/participants/actor/monster/Minion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/participants/actor/player/Backpack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dungeons Online/participants/actor/player/Backpack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/participants/actor/player/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dungeons Online/participants/actor/player/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/participants/client/PlayerClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/participants/client/PlayerRunnable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/server/GameEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dungeons Online/server/GameEngine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/server/GameServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dungeons Online/server/GameServer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/server/GameServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dungeons Online/server/GameServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/server/services/engine/GameMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/server/services/server/ActionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dungeons Online/server/services/server/ActionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dungeons Online/server/services/server/GameServerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Dungeons Online/server/services/server/GameServerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/messages/server/GameEngineMessages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/messages/server/GameEngineMessages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/participants/actor/Actor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/participants/actor/Actor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/participants/actor/Stats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/participants/actor/Stats.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/participants/actor/essentials/Treasure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/participants/essentials/Treasure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/participants/actor/essentials/arsenal/Spell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/participants/essentials/arsenal/Spell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/participants/actor/essentials/arsenal/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/participants/essentials/arsenal/Weapon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/participants/actor/essentials/potions/HealthPotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/participants/essentials/potions/HealthPotion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/participants/actor/essentials/potions/ManaPotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/participants/essentials/potions/ManaPotion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/participants/actor/monster/Minion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/participants/actor/monster/Minion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/participants/actor/player/Backpack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/participants/actor/player/Backpack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/participants/actor/player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/participants/actor/player/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/participants/client/PlayerClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/PlayerClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/participants/client/PlayerRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/PlayerRunnable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/GameEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/GameEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/GameServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/GameServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/services/engine/GameMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/services/map/engine/GameMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/services/server/ActionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/services/server/ActionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/services/server/GameServerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/services/server/GameServerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/GameServerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/GameServerTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/PlayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/READ ME.txt" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -100,7 +58,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/server/GameEngine.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
@@ -118,6 +76,15 @@
                 <element signature="e#7496#7497#0" expanded="true" />
                 <element signature="e#7551#7552#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -322,7 +289,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561976088824" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561976245627" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -870,6 +837,13 @@
             <element signature="e#7496#7497#0" expanded="true" />
             <element signature="e#7551#7552#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
         </state>
       </provider>
     </entry>
