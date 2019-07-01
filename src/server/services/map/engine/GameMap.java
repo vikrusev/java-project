@@ -21,7 +21,7 @@ import java.util.stream.Stream;
 
 import static messages.map.MapMessages.*;
 
-public class GameMap {
+public final class GameMap {
 
     private Path mapFilePath;
 

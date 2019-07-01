@@ -8,7 +8,7 @@ import java.net.Socket;
 import static messages.player.PlayerMessages.*;
 import static messages.server.ServerMessages.STOP_ALL_CLIENTS;
 
-public class PlayerRunnable implements Runnable {
+public final class PlayerRunnable implements Runnable {
 
     private static final String KILLED = STOP_ALL_CLIENTS.toString();
 

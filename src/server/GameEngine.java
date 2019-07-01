@@ -13,7 +13,7 @@ import static messages.player.BackpackMessages.ITEM_PICKED;
 import static server.GameServer.getEnumMessage;
 import static server.GameServer.notifyPlayer;
 
-public class GameEngine {
+public final class GameEngine {
 
     private GameMap gameMap;
 

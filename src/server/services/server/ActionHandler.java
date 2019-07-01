@@ -21,7 +21,7 @@ import static server.GameServer.getEnumMessage;
 import static server.GameServer.notifyPlayer;
 import static java.util.Map.Entry;
 
-public class ActionHandler {
+public final class ActionHandler {
 
     private Treasure getItem(Player player, String receivedMessage) {
         String[] lineParts = receivedMessage.split(" ");

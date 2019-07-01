@@ -8,7 +8,7 @@ import java.util.Scanner;
 import static messages.commands.Commands.*;
 import static messages.player.PlayerMessages.*;
 
-public class PlayerClient {
+public final class PlayerClient {
 
     private PrintWriter writer = null;
     private boolean connected = false;
